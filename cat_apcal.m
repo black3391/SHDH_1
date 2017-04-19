@@ -2,6 +2,8 @@ function [ap] = cat_apcal(traingnd,testgnd, IX)
 % ap=apcal(score,label)
 % average precision (AP) calculation 
 
+
+a=1;
 [numtrain, numtest] = size(IX);
 
 apall = zeros(1,numtest);
